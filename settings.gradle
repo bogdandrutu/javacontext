@@ -15,7 +15,8 @@ pluginManagement {
 }
 
 rootProject.name = "javacontext"
-include ":context",
+include ":cancellable-context",
+        ":context",
         ":grpc-context"
 
 rootProject.children.each {
